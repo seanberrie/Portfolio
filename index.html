@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Oswald" rel="stylesheet">
     <script defer src="main.js"></script>
-    <link rel="stylesheet" type="text/css" href="theme.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,15 +12,23 @@
     <title>Sean Berrie</title>
 </head>
 <body>
-    <header class = "head">Sean Berrie</header>
+    <div class ="img">
+        <div class = "text">
+            <h1>Sean Berrie</h1>
+            <h2>Web Developer/Artist</h2>
+        </div>
+    </div>
+
+
     <nav class = "nav">
         <a>Skills</a>
         <a>Projects</a>
         <a>About</a>
         <a>Contact</a>
     </nav>
+
+    <h2>Skills</h2>
     <div class = "skills">
-        <h2>Skills</h2>
         <div class = "lang">
             <h3>Languages</h3>
             <ul>
@@ -42,27 +52,31 @@
             </ul>
         </div>        
     </div>
+
     <div class ="project">
-        <h2>Projects</h2>
+    <h2>Projects</h2>
         <div class = "examples">
             <div class = "exone">
-                <img src = "#">
+                <img src = "https://i.imgur.com/qM1gWhe.jpg">
                 <a href = "#">GitHub</a>
             </div> 
             <div class = "extwo">
-                <img src = "#">
+                <img src = "https://i.imgur.com/qM1gWhe.jpg">
                 <a href = "#">GitHub</a>
             </div>
             <div class = "exthree">
-                <img src = "#">
+                <img src = "https://i.imgur.com/qM1gWhe.jpg">
                 <a href = "#">GitHub</a>
             </div>
             <div class = "exthree">
-                <img src = "#">
+                <img src = "https://i.imgur.com/qM1gWhe.jpg">
                 <a href = "#">GitHub</a>
             </div>
         </div>
     </div>
+
+
+
     <div class = "about">
         <h2>About Me</h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
@@ -70,6 +84,9 @@
             nam, eos dignissimos expedita nihil hic veritatis recusandae 
             odio provident voluptate reprehenderit impedit modi unde?</p>
     </div>
+
+
+
     <div class = "test">
         <h2>Testimonal</h2>
         <p class = "testone">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -88,12 +105,18 @@
                 adipisci assumenda amet ratione voluptates similique.
         </p> 
     </div>
+
+
+    <footer>
     <div class = "foot">
-        <p class = "copy">&copy;2018</p>
-        <i class="fab fa-facebook-f"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-github"></i>
-        <i class="fas fa-envelope-square"></i>
-    </div>  
+        <div class ="awesome">
+            <a target="_blank" href = "https://www.facebook.com/sean.berrie"><i class="fab fa-facebook-f"></i></a>
+            <a target="_blank" href = "https://www.instagram.com/itszeeberrie/"><i class="fab fa-instagram"></i></a>
+            <a target="_blank" href = "https://github.com/seanberrie"><i class="fab fa-github"></i></a>
+            <i class="fas fa-envelope-square" id = "email"></i>
+        </div>
+        <p class = "copy">Sean Berrie&copy;2018</p>
+    </div>
+    </footer> 
 </body>
 </html>
