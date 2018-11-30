@@ -29,18 +29,51 @@ function rotateTerm() {
 };
 $(rotateTerm);
 
-!function(t){
-    "use strict";
-    var a=t("[data-slides]"),ni=0,s=a.data("slides"),e=s.length,
-    n=function(){
-        if(ni>=a.length){ni=0}
-        else{ni++};
-        a.css("background-image",'url("'+s[ni]+'")').show(0,
-            function(){setTimeout(n,5e3
-                )})};
-    n()}
+(function($) {
+	
+	'use strict';
+	var idx = 0;
+	var $slides = $('[data-slides]');
+	var images = $slides.data('slides');
+    var count = images.length;
     
-    (jQuery);
+	var slideshow = function() {
+        if (idx >= count) {idx = 0}
+        else {idx++};
+        $slides.css('background-image', 'url("' + images[idx] + '")').show(0, 
+            function() {
+				setTimeout(slideshow, 5000);
+			});
+	};
+	
+	slideshow();
+	
+}(jQuery));
+
+// Math.floor(Math.random() * count)
+
+
+
+// e = count
+// s = images
+// ni = 0
+// a = $slides
+// n = slidshow
+
+
+
+// !function(t){
+//     "use strict";
+//     var a=t("[data-slides]"),ni=0,s=a.data("slides"),e=s.length,
+//     n=function(){
+//         if(ni>=a.length){ni=0}
+//         else{ni++};
+//         a.css("background-image",'url("'+s[ni]+'")').show(0,
+//             function(){setTimeout(n,5e3
+//                 )})};
+//     n()}
+    
+//     (jQuery);
 
 
 
