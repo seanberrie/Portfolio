@@ -14,7 +14,7 @@ body {
     
 
 }
-.img {
+[data-slides] {
     background-image: url("https://i.imgur.com/OsarbSu.jpg");
     background-color: black;
     height: 800px;
@@ -23,6 +23,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    transition: background-image 1s linear;
 }
 .text {
     text-align: center;
@@ -64,6 +65,19 @@ nav
 }
 .nav a {
     font-size: 1.5em;
+    text-decoration: none;
+    color: inherit;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ececec;
+}
+
+.nav a:hover {
+    border-bottom: black 1px solid;
 }
 
 /*==================================================
@@ -80,8 +94,6 @@ h2 {
 /*==================================================
 skills
 ===================================================*/
-
-
 .skills {
     display: flex;
     flex-direction: row;
@@ -97,6 +109,7 @@ h3 {
 }
 li {
     font-family: 'Oswald', sans-serif;
+    font-weight: 200;
 }
 
 /*==================================================
@@ -116,8 +129,8 @@ examples
     grid-gap: 3em;
 }
 .examples img {
-    height: 15em;
-    width: 15em;
+    height: 20em;
+    width: 20em;
 }
 
 .exone {
@@ -149,6 +162,40 @@ examples
     align-items: center;
 }
 
+.btn {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border-radius: 1em;
+    height: 1.7em;
+    width: 8em;
+    margin: .75em 0;
+    text-decoration: none;
+    border: lightslategray 2px solid;
+}
+.btn:hover {
+    transition: 3s;
+    transform: rotateX(360deg);
+}
+img {
+    border-radius: 1em;
+    margin-bottom: .5em;
+}
+img:hover {
+    box-shadow: 10px 10px 10px #888888;
+    transition: .25s;
+}
+/*==================================================
+flex for about and test
+===================================================*/
+.bottom {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
 /*==================================================
 about
 ===================================================*/
@@ -156,25 +203,34 @@ about
     font-family: 'Oswald', sans-serif;
     text-align: center;
     margin: 0 20%;
-    font-weight: 100;
+    font-weight: 200;
 }
 .about {
     padding: 5em 0;
+}
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.profile img {
+    height: 10em;
+    box-shadow: none;
+    margin-bottom: -20px;
 }
 
 /*==================================================
 testimonal
 ===================================================*/
-.test p {
+.test {
     font-family: 'Oswald', sans-serif;
     text-align: center;
     margin: 0 20%;
     font-weight: 100;
-}
-.test {
-    background-color: white;
-    color: black;
-    padding: 5em 0;
+    background-color: black;
+    color: white;
+    padding: 1em 0  3em 0;
 }
 
 /*==================================================
@@ -182,7 +238,6 @@ footer
 ===================================================*/
 .awesome a {
     color: inherit;
-
 }
 .fab:hover{
     color: red;
@@ -203,11 +258,11 @@ footer
 }
 footer {
     padding: .5em;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     font-size: 1em;
     height: 4em;
-    padding: 2em 0 0 0;
+    padding: 1em 0 1em 0;
 }
 footer p {
     text-align: center;
