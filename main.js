@@ -4,10 +4,10 @@ console.log("hold my beer");
 /////////
 /////////  alert box email
 /////////
-var $email = $('#email');
-$email.on('click',function(){
-    alert("Email: SeanBerrie21@gmail.com");
-});
+// var $email = $('#email');
+// $email.on('click',function(){
+//     alert("Email: SeanBerrie21@gmail.com");
+// });
 
 
 /////////
