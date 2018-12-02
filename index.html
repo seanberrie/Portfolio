@@ -12,7 +12,7 @@
     <link rel="shortcut icon" href="https://i.imgur.com/JxapTqy.png" />
     <title>Sean Berrie</title>
 </head>
-<body>
+<body class="phone">
     <div class ="img">
         <div class = "text">
             <h1>Sean Berrie</h1>
@@ -20,13 +20,17 @@
         </div>
     </div>
 
-
-    <nav class = "nav">
-        <a href = "#skillslink">Skills</a>
-        <a href = "#projectlink">Projects</a>
-        <a href = "#aboutlink">About</a>
-        <a href = "#footerlink">Contact</a>
-    </nav>
+    <div class="phonecont">
+        <div class="iconcon">
+            <i class="fas fa-bars icon"></i>
+        </div>
+        <nav class = "nav"> 
+            <a href = "#skillslink">Skills</a>
+            <a href = "#projectlink">Projects</a>
+            <a href = "#aboutlink">About</a>
+            <a href = "#footerlink">Contact</a>
+        </nav>
+    </div>
 
     <a id = "skillslink"></a>
         <h2 class = "skillnav">Skills</h2>
@@ -51,6 +55,9 @@
                     <li>Illustrator</li>
                     <li>Lightroom</li>
                     <li>After Effects</li>
+                    <br>
+                    <br>
+                    <br>
                 </ul>
             </div>      
         </div>
@@ -61,49 +68,54 @@
     <h2>Projects</h2>
         <div class = "examples">
             <div class = "exone">
+                <h3>Memory Game</h3>
                 <img src = "https://i.imgur.com/Hjtc2xY.png">
                 <a class="btn" target="_blank" href="https://github.com/seanberrie/wdi-fundamentals-memorygame"><i class="fab fa-github"></i>&nbsp;GITHUB</a>
             </div> 
             <div class = "extwo">
+                <h3>Tic-Tac-Toe</h3>
                 <img src = "https://i.imgur.com/zbqgY2v.png">
                 <a class="btn" target="_blank" href="https://github.com/seanberrie/TicTacToe"><i class="fab fa-github"></i>&nbsp;GITHUB</a>
             </div>
             <div class = "exthree">
+                <h3>Mock Blog</h3>
                 <img src = "https://i.imgur.com/1GxUXYX.png">
                 <a class="btn" target="_blank" href="https://github.com/seanberrie/monument-project"><i class="fab fa-github"></i>&nbsp;GITHUB</a>
             </div>
             <div class = "exthree">
+                <h3>Artist Page</h3>
                 <img src = "https://i.imgur.com/dT5RhWc.png">
                 <a class="btn" target="_blank" href="https://www.seanberrie.com">Art Portfolio</a>
             </div>
         </div>
     </div>
 
-
+    <a id = "aboutlink"></a>
     <div class = "bottom">
-           <a id = "aboutlink"></a>
-        <div class = "about">
             <div class = "profile">
-                <img src = "https://i.imgur.com/JxapTqy.png">
+                    <img src = "https://i.imgur.com/JxapTqy.png">
             </div>
-            <h2>About Me</h2>
-            <p>Artist from NY who has taken the fast pace of the 
-                city into the web development world.  I'm capable of 
-                adapting to any curve ball sent my way while also being 
-                engaged in listening to my client's concerns.
-                My background in design which allows me to analyze the big 
-                picture, while my web development skills make it so I 
-                can produce a product that is both visually appealing 
-                and functional. </p>
-        </div>
+        <div class="abouttest">
+            <div class = "about">
+                <h2>About Me</h2>
+                <p>Artist from NY who has taken the fast pace of the 
+                    city into the web development world.  I'm capable of 
+                    adapting to any curve ball sent my way while also being 
+                    engaged in listening to my client's concerns.
+                    My background in design which allows me to analyze the big 
+                    picture, while my web development skills make it so I 
+                    can produce a product that is both visually appealing 
+                    and functional. </p>
+            </div>
 
 
       
-        <div class = "testmain">
-            <h2>Testimonial</h2>
-            
-            <p class = "test">
-            </p>
+            <div class = "about">
+                <h2 class= "testtitle">Testimonial</h2>
+                
+                <p class = "test">
+                </p>
+            </div>
         </div>
     </div>
 
@@ -115,7 +127,7 @@
             <a target="_blank" href = "https://www.facebook.com/sean.berrie"><i class="fab fa-facebook-f"></i></a>
             <a target="_blank" href = "https://www.instagram.com/itszeeberrie/"><i class="fab fa-instagram"></i></a>
             <a target="_blank" href = "https://github.com/seanberrie"><i class="fab fa-github"></i></a>
-            <i class="fas fa-envelope-square" id = "email"></i>
+            <i class="fas fa-envelope-square" id = "email"><span class="tooltiptext">Seanberrie21@gmail.com</span></i>
         </div>
             <p class = "copy">Sean Berrie&copy;2018</p>
         </div>
