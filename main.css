@@ -98,6 +98,13 @@ h2 {
 /*==================================================
 skills
 ===================================================*/
+<<<<<<< HEAD
+=======
+.skillnav {
+    padding: 2em 0 0 0;
+}
+
+>>>>>>> master
 .skills {
     display: flex;
     flex-direction: row;
@@ -217,8 +224,14 @@ about
     font-weight: 200;
 }
 .about {
+<<<<<<< HEAD
     flex: 1;
     height: 380px;
+=======
+    padding: 2em 0;
+    flex: 1;
+    height:380px;
+>>>>>>> master
 }
 .profile {
     display: flex;
@@ -307,6 +320,7 @@ media query
 .abouttest {
     flex-direction: column;
 }
+<<<<<<< HEAD
 
 .about {
     height: unset;
@@ -314,6 +328,8 @@ media query
 .testcont.about {
     height: 380px;
 }
+=======
+>>>>>>> master
 .bottom {
     display: flex;
     flex-direction: column;
