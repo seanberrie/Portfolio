@@ -98,10 +98,6 @@ h2 {
 /*==================================================
 skills
 ===================================================*/
-.skillnav {
-    padding: 3em 0 0 0;
-}
-
 .skills {
     display: flex;
     flex-direction: row;
@@ -126,7 +122,7 @@ examples
 .project {
     background-color: white;
     color: black;
-    padding: 5em 0;
+    padding: 2em 0;
 }
 
 .examples h3 {
@@ -209,6 +205,7 @@ flex for about and test
 .abouttest {
     display: flex;
     flex-direction: row;
+    padding: 2em 0;
 }
 /*==================================================
 about
@@ -220,19 +217,21 @@ about
     font-weight: 200;
 }
 .about {
-    padding: 5em 0;
     flex: 1;
+    height: 380px;
 }
 .profile {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 3em;
+    padding: 2em 0;
     
 }
 .profile img {
     height: 10em;
     box-shadow: none;
+    border-radius: 50%;
+    margin-bottom: 0;
 }
 
 /*==================================================
@@ -304,6 +303,16 @@ media query
 .examples {
     display: flex;
     flex-direction: column;
+}
+.abouttest {
+    flex-direction: column;
+}
+
+.about {
+    height: unset;
+}
+.testcont.about {
+    height: 380px;
 }
 .bottom {
     display: flex;
