@@ -36,7 +36,11 @@ $(window).bind('scroll', function () {
 /// //////
 var phrase = $('.test')
 var x = 0
+<<<<<<< HEAD
 var terms = ["Sean Berrie is a hardworking guy who does whatever is asked of him. He really loves Reddit and spends way too much time trying to educate his flat earther friends on Facebook. If I had to say which vegetable Sean is I wound say he's a carrot because he's long and skinny and full of good things for you.",
+=======
+var terms = ["Sean Berrie is a hardworking guy who does whatever is asked of him. While on a trip to a UFO conference in Joshua Tree he took one for the team. Sean has a strong work ethic and is great at finding ways to get the task done, fast and effectively. He really loves Reddit and spends way too much time trying to educate his flat earther friends on Facebook. If I had to say which vegetable Sean is I wound say he's a carrot because he's long and skinny and full of good things for you.",
+>>>>>>> master
   'this is 2, ipsum dolor sit amet consectetur adipisicing elit. Delectus ab facere natus voluptatum laudantium totam commodi eius magnam sapiente, aperiam ipsam blanditiis accusamus sed adipisci assumenda amet ratione voluptates similique.',
   'we go for 3, ipsum dolor sit amet consectetur adipisicing elit. Delectus ab facere natus voluptatum laudantium totam commodi eius magnam sapiente, aperiam ipsam blanditiis accusamus sed adipisci assumenda amet ratione voluptates similique.'
 ]
