@@ -6,7 +6,7 @@ This is a portfolio that both shows both my webdev skills and also links my arti
 ![portfolio image](https://i.imgur.com/4rbAC1u.jpg)
 
 ### Mobile Preview
-![mobile preview] (https://i.imgur.com/edqdnFA.png)
+![mobile preview](https://i.imgur.com/edqdnFA.png)
 
 ### Features
 
