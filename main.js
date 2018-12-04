@@ -77,3 +77,10 @@ $icon.click(function () {
     $nav.removeClass('navopen')
   }
 })
+
+var $scroll = $('#scroll')
+var scrolldown = function () {
+  $scroll.fadeIn(500).delay(500).fadeOut(500)
+}
+scrolldown()
+setInterval(scrolldown, 2000)

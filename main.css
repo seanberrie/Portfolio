@@ -48,6 +48,10 @@ h1 {
     font-size: 2em !important;
     text-decoration: none !important;
 }
+#scroll{
+    text-decoration: underline !important;
+    position: fixed;
+}
 /*==================================================
 nav
 ===================================================*/
@@ -338,7 +342,7 @@ media query
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
+ }
 .icon {
     display: block;
     color: black;
