@@ -32,6 +32,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    height: 600px;
 }
 h1 {
     font-family: 'Amatic SC', cursive;
@@ -47,6 +48,10 @@ h1 {
     font-weight: 200; 
     font-size: 2em !important;
     text-decoration: none !important;
+}
+#scroll{
+    font-size: 4em;
+    margin-top: 1em;
 }
 /*==================================================
 nav
@@ -98,6 +103,9 @@ h2 {
 /*==================================================
 skills
 ===================================================*/
+.skillnav {
+    padding: 2em 0 0 0;
+}
 .skills {
     display: flex;
     flex-direction: row;
@@ -178,10 +186,11 @@ examples
     border-radius: 1em;
     height: 1.7em;
     width: 8em;
-    margin: .75em 0;
+    margin: .75em .60em;
     text-decoration: none;
     border: lightslategray 2px solid;
     font-family: 'Oswald', sans-serif;
+
 }
 .btn:hover {
     transition: 3s;
@@ -194,6 +203,10 @@ img {
 img:hover {
     box-shadow: 10px 10px 10px #888888;
     transition: .25s;
+}
+.links {
+    display:flex;
+    flex-direction: row;
 }
 /*==================================================
 flex for about and test
@@ -335,7 +348,7 @@ media query
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
+ }
 .icon {
     display: block;
     color: black;
