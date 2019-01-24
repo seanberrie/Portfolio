@@ -186,10 +186,11 @@ examples
     border-radius: 1em;
     height: 1.7em;
     width: 8em;
-    margin: .75em 0;
+    margin: .75em .60em;
     text-decoration: none;
     border: lightslategray 2px solid;
     font-family: 'Oswald', sans-serif;
+
 }
 .btn:hover {
     transition: 3s;
@@ -202,6 +203,10 @@ img {
 img:hover {
     box-shadow: 10px 10px 10px #888888;
     transition: .25s;
+}
+.links {
+    display:flex;
+    flex-direction: row;
 }
 /*==================================================
 flex for about and test

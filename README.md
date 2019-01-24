@@ -43,4 +43,3 @@ This is a portfolio that both shows both my webdev skills and also links my arti
 ### I'm Winning 
 * fixed nearly all errors i wanted to
 * I reduced the size of my functions down to min size i could
-* learning how to do this damn Read ME
