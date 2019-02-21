@@ -145,7 +145,8 @@ examples
 .examples img {
     height: 20em;
     width: 20em;
-    object-fit: cover;
+    object-fit: contain;
+    background-color: #a5a5a52c;
 }
 
 .exone {
@@ -161,6 +162,13 @@ examples
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.exfive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
 .exthree {
     grid-area: "three";
